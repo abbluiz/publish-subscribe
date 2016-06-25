@@ -1,0 +1,163 @@
+IMPRIMEREDE
+
+BROKER brokerA
+	VIZINHO brokerB
+	CLIENTE P cliente1
+		EVENTO P1 esporte Flamengo
+	CLIENTE S cliente2
+
+BROKER brokerB
+	VIZINHO brokerA
+	VIZINHO brokerC
+	CLIENTE S cliente3
+		EVENTO S2 esporte
+
+BROKER brokerC
+	VIZINHO brokerB
+	CLIENTE P cliente4
+		EVENTO P7 esporte Vasco
+	CLIENTE S cliente5
+		EVENTO S3 esporte
+
+BROKER brokerD
+	VIZINHO brokerE
+	VIZINHO brokerF
+	CLIENTE P cliente6
+		EVENTO P6 informatica prova
+
+BROKER brokerE
+	VIZINHO brokerD
+	VIZINHO brokerF
+
+BROKER brokerF
+	VIZINHO brokerE
+	VIZINHO brokerD
+	VIZINHO brokerG
+
+BROKER brokerG
+	VIZINHO brokerF
+	CLIENTE S cliente7
+		EVENTO S4 esporte
+		EVENTO S5 informatica
+
+VERIFICACAO MATCHING
+
+CLIENTE cliente2
+
+CLIENTE cliente3
+	S2 P1 esporte Flamengo 
+	S2 P7 esporte Vasco 
+
+CLIENTE cliente5
+	S3 P7 esporte Vasco 
+	S3 P1 esporte Flamengo 
+
+CLIENTE cliente7
+	S5 P6 informatica prova 
+
+IMPRIMEREDE
+
+VERIFICACAO MATCHING
+
+IMPRIMEREDE
+
+BROKER brokerA
+	VIZINHO brokerB
+	CLIENTE P cliente1
+		EVENTO P1 esporte Flamengo
+	CLIENTE S cliente2
+
+BROKER brokerB
+	VIZINHO brokerA
+	VIZINHO brokerC
+	CLIENTE S cliente3
+		EVENTO S2 esporte
+
+BROKER brokerC
+	VIZINHO brokerB
+	CLIENTE P cliente4
+		EVENTO P7 esporte Vasco
+	CLIENTE S cliente5
+		EVENTO S3 esporte
+
+BROKER brokerD
+	VIZINHO brokerE
+	VIZINHO brokerF
+	CLIENTE P cliente6
+		EVENTO P6 informatica prova
+
+BROKER brokerE
+	VIZINHO brokerD
+	VIZINHO brokerF
+
+BROKER brokerF
+	VIZINHO brokerE
+	VIZINHO brokerD
+	VIZINHO brokerG
+
+BROKER brokerG
+	VIZINHO brokerF
+	CLIENTE S cliente7
+		EVENTO S4 esporte
+		EVENTO S5 informatica
+
+VERIFICACAO MATCHING
+
+CLIENTE cliente2
+
+CLIENTE cliente3
+	S2 P1 esporte Flamengo 
+	S2 P7 esporte Vasco 
+
+CLIENTE cliente5
+	S3 P7 esporte Vasco 
+	S3 P1 esporte Flamengo 
+
+CLIENTE cliente7
+	S5 P6 informatica prova 
+
+IMPRIMEREDE
+
+BROKER brokerA
+	VIZINHO brokerB
+	CLIENTE P cliente1
+	CLIENTE S cliente2
+
+BROKER brokerB
+	VIZINHO brokerA
+	VIZINHO brokerC
+	CLIENTE S cliente3
+
+BROKER brokerC
+	VIZINHO brokerB
+	CLIENTE P cliente4
+	CLIENTE S cliente5
+
+BROKER brokerD
+	VIZINHO brokerE
+	VIZINHO brokerF
+	CLIENTE P cliente6
+
+BROKER brokerE
+	VIZINHO brokerD
+	VIZINHO brokerF
+
+BROKER brokerF
+	VIZINHO brokerE
+	VIZINHO brokerD
+	VIZINHO brokerG
+
+BROKER brokerG
+	VIZINHO brokerF
+	CLIENTE S cliente7
+
+VERIFICACAO MATCHING
+
+CLIENTE cliente2
+
+CLIENTE cliente3
+
+CLIENTE cliente5
+
+CLIENTE cliente7
+

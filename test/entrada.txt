@@ -1,0 +1,86 @@
+CRIABROKER brokerA
+CRIABROKER brokerB
+CRIABROKER brokerC
+CRIABROKER brokerD
+CRIABROKER brokerE
+CRIABROKER brokerF
+CRIABROKER brokerG
+CRIACLIENTE cliente1 P brokerA
+CRIACLIENTE cliente2 S brokerA
+CRIACLIENTE cliente3 S brokerB
+CRIACLIENTE cliente4 P brokerC
+CRIACLIENTE cliente5 S brokerC
+CRIACLIENTE cliente6 P brokerD
+CRIACLIENTE cliente7 S brokerG
+INSEREVIZINHO brokerA brokerB
+INSEREVIZINHO brokerB brokerC
+INSEREVIZINHO brokerD brokerE
+INSEREVIZINHO brokerE brokerD
+INSEREVIZINHO brokerE brokerF
+INSEREVIZINHO brokerF brokerD
+INSEREVIZINHO brokerF brokerG
+PUBLICA 1 cliente1 esporte Flamengo
+SUBSCREVE 2 cliente3 esporte
+SUBSCREVE 3 cliente5 esporte
+SUBSCREVE 4 cliente7 esporte
+SUBSCREVE 5 cliente7 informatica
+PUBLICA 6 cliente6 informatica prova
+PUBLICA 7 cliente4 esporte Vasco
+IMPRIMEREDE
+VERIFICAMATCHING
+EXCLUIBROKER brokerB
+EXCLUIBROKER brokerC
+EXCLUIBROKER brokerA
+EXCLUIBROKER brokerE
+EXCLUIBROKER brokerG
+EXCLUIBROKER brokerD
+EXCLUIBROKER brokerF
+IMPRIMEREDE
+VERIFICAMATCHING
+CRIABROKER brokerA
+CRIABROKER brokerB
+CRIABROKER brokerC
+CRIABROKER brokerD
+CRIABROKER brokerE
+CRIABROKER brokerF
+CRIABROKER brokerG
+CRIACLIENTE cliente1 P brokerA
+CRIACLIENTE cliente2 S brokerA
+CRIACLIENTE cliente3 S brokerB
+CRIACLIENTE cliente4 P brokerC
+CRIACLIENTE cliente5 S brokerC
+CRIACLIENTE cliente6 P brokerD
+CRIACLIENTE cliente7 S brokerG
+INSEREVIZINHO brokerA brokerB
+INSEREVIZINHO brokerB brokerC
+INSEREVIZINHO brokerD brokerE
+INSEREVIZINHO brokerE brokerD
+INSEREVIZINHO brokerE brokerF
+INSEREVIZINHO brokerF brokerD
+INSEREVIZINHO brokerF brokerG
+PUBLICA 1 cliente1 esporte Flamengo
+SUBSCREVE 2 cliente3 esporte
+SUBSCREVE 3 cliente5 esporte
+SUBSCREVE 4 cliente7 esporte
+SUBSCREVE 5 cliente7 informatica
+PUBLICA 6 cliente6 informatica prova
+PUBLICA 7 cliente4 esporte Vasco
+IMPRIMEREDE
+VERIFICAMATCHING
+EXCLUICLIENTE cliente1
+EXCLUICLIENTE cliente3
+EXCLUICLIENTE cliente5
+EXCLUICLIENTE cliente7
+EXCLUICLIENTE cliente2
+EXCLUICLIENTE cliente4
+EXCLUICLIENTE cliente6
+CRIACLIENTE cliente1 P brokerA
+CRIACLIENTE cliente2 S brokerA
+CRIACLIENTE cliente3 S brokerB
+CRIACLIENTE cliente4 P brokerC
+CRIACLIENTE cliente5 S brokerC
+CRIACLIENTE cliente6 P brokerD
+CRIACLIENTE cliente7 S brokerG
+IMPRIMEREDE
+VERIFICAMATCHING
+FIM
